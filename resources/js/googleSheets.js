@@ -9,7 +9,7 @@ function setUpGoogleSheets() {
       btn.disabled = true
       btn.innerHTML = "Sending..."
 
-      let fd = getData(true)
+      let fd = getData(false)
       for (const [key, value] of fd) {
         console.log(`${key}: ${value}\n`);
       }
